@@ -1,0 +1,7 @@
+<div class="container">
+  <app-track
+    *ngFor="let track of tracks"
+    [trackName]="track['name']"
+    [trackImage]="track['image'][2]['#text']"
+   ></app-track>
+</div>
